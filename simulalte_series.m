@@ -1,5 +1,4 @@
 g = DataGenerator();
-l = DataLoader();
 
 rb = g.gen_white_noise(300);
 ma = g.gen_ma(300, [0.4, 1, -1.1, 0.4]);  % y_t = [constante, coef1*e_t + coef2*e_t-1 + coef3*e_t-2 + ...} (En ese orden)
