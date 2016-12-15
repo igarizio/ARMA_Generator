@@ -1,4 +1,4 @@
-# ARMA_Generator
+# Series simulator ([link](http://iacopogarizio.com/portfolio/simulador-ar-ma-arma/))
 Usage:
 ```{r, engine='matlab'}
 g = DataGenerator();
